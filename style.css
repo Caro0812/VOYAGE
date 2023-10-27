@@ -279,4 +279,22 @@ background-color: transparent;
 
 /*FIN VOYAGES*/
 
+/*NEWSLETTER*/
 
+
+#Newsletter{background:url(images/img16.jpg) no-repeat 0 bottom black; background-size:cover;}
+    
+#Newsletter .news {width:35%; margin: 0 15%; position:relative;}
+    
+  /* axe principal devient vertical
+#Newsletter{
+    margin-bottom:8%;
+    background-color:#0791be;
+    margin-top:-3%;
+}
+#Newsletter form{border:1px solid white;}
+#Newsletter .form-control{background-color:transparent;border:none;position:relative;}
+#Newsletter input::placeholder{color:#ccc;}
+#Newsletter .row{position:center;}
+#Newsletter h3,#Newsletter h4,#Newsletter p{color:white;}
+*/
