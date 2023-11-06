@@ -84,7 +84,7 @@
             </div>
         </header>
 
-        <section id="page-titre" class="overlay">
+        <section id="page-titre" class="overlay hidden">
             <h1>Nom de la destination</h1>
             <div class="vague"></div>
         </section>
@@ -103,45 +103,52 @@
                 </div><!-- fin de la div details -->
 
                 <div id="tabs" class="my-5">
-                    <!-- Nab tabs-->
 
+                    <!-- Nav tabs -->
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                                role="tab" aria-controls="home" aria-selected="true">Home</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                                role="tab" aria-controls="profile" aria-selected="false">Profile</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+                            <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button"
+                                role="tab" aria-controls="messages" aria-selected="false">Messages</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+                            <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button"
+                                role="tab" aria-controls="settings" aria-selected="false">Settings</button>
                         </li>
                     </ul>
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laudantium illo quam. Cumque eius facere explicabo minima vel placeat doloremque, distinctio modi deserunt accusamus officia consequatur. Blanditiis quisquam eveniet nostrum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laudantium illo quam. Cumque eius facere explicabo minima vel placeat doloremque, distinctio modi deserunt accusamus officia consequatur. Blanditiis quisquam eveniet nostrum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laudantium illo quam. Cumque eius facere explicabo minima vel placeat doloremque, distinctio modi deserunt accusamus officia consequatur. Blanditiis quisquam eveniet nostrum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laudantium illo quam. Cumque eius facere explicabo minima vel placeat doloremque, distinctio modi deserunt accusamus officia consequatur. Blanditiis quisquam eveniet nostrum!</p>
+                        </div>
+                        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sapiente voluptate error quae earum aperiam, quis quaerat iusto itaque, alias sit commodi officia sint eaque id fugiat non delectus nobis!</p>
+                        </div>
+                        <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">
+                            <img src="images/gallery-5.jpg" alt="">
+                        </div>
+                        <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11555.870793339232!2d1.3648584312225092!3d43.60721416764662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebaa26015cb43%3A0xacdcee70b0cc51c3!2s15%20Chem.%20de%20la%20Crabe%2C%2031300%20Toulouse!5e0!3m2!1sfr!2sfr!4v1698064305118!5m2!1sfr!2sfr"
+                                height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+                    </div>
 
 
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque cupiditate modi dolores corrupti eius, vel atque velit exercitationem? Velit, eligendi placeat quaerat et rem totam itaque cupiditate amet quam eum!</p>
-                    </div>
-                    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sapiente voluptate error quae earum aperiam, quis quaerat iusto itaque, alias sit commodi officia sint eaque id fugiat non delectus nobis!</p>
-                    </div>
-                    <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">
-                        <img src="images/gallery-5.jpg" alt="">
-                    </div>
-                    <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="messages-tab" tabindex="0"><img src="images/gallery-5.jpg" alt="">
-                    </div>
-                    <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11555.870793339232!2d1.3648584312225092!3d43.60721416764662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebaa26015cb43%3A0xacdcee70b0cc51c3!2s15%20Chem.%20de%20la%20Crabe%2C%2031300%20Toulouse!5e0!3m2!1sfr!2sfr!4v1698064305118!5m2!1sfr!2sfr"
-                            height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    </div>
-
-                </div><!-- fin de la tab panes -->
+                </div><!-- fin de la div tabs-->
 
         <div id="galerie-details" class="row">
             <h3>Galerie / Photos</h3>
@@ -157,7 +164,7 @@
                 </section>
                 <aside class="col-lg-3">
                     <div class="details-cout">
-                            <span>649€ / personne</span>
+                            <span><b>649€</span></b> / personne</span>
                             <div>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
@@ -168,11 +175,16 @@
                     </div>
                         
                         <form action="" method="POST">
-                            <input type="text" placeholder="votre nom" name="nom"> 
-                            <input type="email" placeholder="votre email" name="email">
-                            <input type="number" placeholder="votre téléphone" name="telephone">
-                            <input type="date" placeholder="date">
-
+                            <div class="btn-secondary">
+                                <h3>Réservations</h3>
+                            </div>
+                            <input type="text" placeholder="votre nom" name="nom" class="form-control mb-3"> 
+                            <input type="email" placeholder="votre email" name="email"class="form-control mb-3">
+                            <input type="number" placeholder="votre téléphone" name="telephone"class="form-control mb-3">
+                            <input type="date" placeholder="date"class="form-control mb-3">
+                            
+                        <fieldset>
+                            <legend>Ajouter des options</legend>
                             <div class="form-check">
                                 <input type="checkbox" id="guide" value="guide" name="guide" class="form-check-input">
                                 <label for="guide" class="form-check-label">Guide touristique</label>
@@ -182,7 +194,8 @@
                                 <input type="checkbox" id="assurance" value="assurance" name="assurance" checked class="form-check-input">
                                 <label for="assurance" class="form-check-label">Assurance</label>
                             </div>
-                            <input type="submit" class="btn btn-primary">
+                        </fieldset>
+                            <input type="submit" class="btn btn-primary form-control my-3">
                         </form>
 
                         <div id="infos-commerciales">
@@ -192,7 +205,7 @@
           
                         </div>
 
-                        <div id="autres">
+                        <div id="autres" class="overlay">
                             <h4>Titre</h4>
                             <h5>Lorem ipsum dolor</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis a commodi architecto, hic laborum sapiente libero totam quaerat doloribus corporis quasi quibusdam rerum qui illum nemo aut dolorem doloremque excepturi.</p>  

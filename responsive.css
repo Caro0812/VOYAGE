@@ -5,7 +5,7 @@
 
     #populaires form{margin-top:0;}
     .bleu img{position:relative;width:100%;left:0;}
-    .bleu{padding: 01em 0;}
+    .bleu{padding: 01em 0}
     .bleu .presentation{margin-left: 1%;}
     #chiffres .telephone{
         width:80%;
@@ -26,13 +26,20 @@ h3{font-size:1.5em;}
 .image-slider{background:url(../images/img15.jpg) no-repeat 0 0 scroll; color:#0791eb;
 background-size: cover;
 
-min-height:225px;overflow:hidden;
+max-height:225px;overflow:hidden;
 }
 
 .image-slider h1{color:#fff;
     font-weight:bold;
     text-align: center;
     padding:2em;}
+
+#newsletter .news {
+    width:95%;}
+
+header nav{background:#f56960; margin-bottom:1em;}
+.btn-primary{background:white;color:#101F46}
+
 }
 
 

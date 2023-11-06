@@ -10,6 +10,7 @@ Police texte : Open sans.
 font-family: 'Open Sans', sans-serif; 
 font-family: 'Raleway',sans-serif; 
 */
+*{position:relative}   /* permet d'aplliquer sur tout le document     la position relative*/
 body{margin:0;padding:0;
     font-family: 'Open Sans', sans-serif;
     color:#101F46;background: #fafafa;
@@ -114,7 +115,7 @@ body{margin:0;padding:0;
 
     .top-p{width:60%; margin:1em auto;}
 
-    top .links{border-top:1px solid rgba(16,31,70,0.1)}
+    #top .links{border-top:1px solid rgba(16,31,70,0.1)}
     
 /*CHIFFRES*/
 .bleu{background-color:#0791be;color:white;padding: 5em 0 0 19em; position:relative;}
@@ -281,11 +282,9 @@ background-color: transparent;
 
 /*NEWSLETTER*/
 
-
-#Newsletter{background:url(images/img16.jpg) no-repeat 0 bottom black; background-size:cover;}
+#Newsletter{background:url(images/img16.jpg) no-repeat 0 bottom black; background-size:cover; position:relative; margin-top:2em;}
     
-#Newsletter .news {width:35%; margin: 0 15%; position:relative;}
-    
+#Newsletter .news {width:35%; margin: 0 15%; position:relative; }
   /* axe principal devient vertical
 #Newsletter{
     margin-bottom:8%;
@@ -298,3 +297,49 @@ background-color: transparent;
 #Newsletter .row{position:center;}
 #Newsletter h3,#Newsletter h4,#Newsletter p{color:white;}
 */
+
+/*BARRE LATERALE*/
+.details-cout{
+background:#f56960;
+    color: white;
+    text-align: center;
+    padding:1em;
+    margin-bottom: 1em;
+}
+
+aside form, #infos-commerciales{
+background:rgba(200, 175, 151, 0.2);
+padding:1em;
+margin-bottom: 2.5em;
+border-bottom: 3px solid #0791be;
+}
+
+legend{font-size:1.2em;font-weight:600;
+}
+aside form h3 {font-size:1em; color: white; text-align:center; padding: 1.5em;}
+
+#infos-commerciales{text-align: center;}
+
+#autres {
+    background:url(images/gallery-1.jpg) no-repeat scroll 0 0 #000;
+    color:white;padding:1em; position:relative;
+}
+
+#autres .list-group{
+
+    --bs-list-group-bg:rgba(0,0,0,0);
+}
+#autres li.list-group-item{
+    color:white;
+}
+#autres h5{color:white;}
+#autres.overlay::before{
+  background-color:rgba(3, 31, 122, 0.5);
+}
+#autres i.bi{
+    margin-right:1em;
+}
+/*FIN DE TAILS VOYAGES*/
+
+
+
