@@ -44,7 +44,7 @@ body{margin:0;padding:0;
     .btn-secondary:hover {background-color: #066a8b;
     }
     a.btn-secondary,button.btn-primary{border:none;}
-    /*a[href="index.html"]{font-size:5em;}*/
+    /*a[href="index.php"]{font-size:5em;}*/
     
     /* TOPBAR */
     #topbar{background-color:rgba(0,0,0,0.2);color:#fff;font-size:0.8em;}

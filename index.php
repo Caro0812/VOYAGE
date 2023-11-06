@@ -50,43 +50,7 @@
 
     <!-- fin topbar -->
     <!-- header -->
-
-    <header>
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg col-md-10 offset-md-1">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html"><h3>VOYAGE</h3></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Destinations</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
-                                </li>                                
-                            </ul>
-                           <a href="#" class="btn btn-primary">Je Réserve !</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-
-
-
-
-    </header>
+   <?php include('header.php');?>
     <!-- slider -->
     <div class="d-none display-mobile image-slider">
         <h1>Voyages sur mesure</h1>
@@ -625,25 +589,9 @@
     <div class="up">
         <a href="#topbar"><i class="bi bi-arrow-up-circle-fill"></i></a>
     </div>
-    <footer>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col offset-md-1">
-                    <ul class="d-flex justify-content-center">
-                        <li><a href="#top">Mentions légales</a></li>
-                        <li><a href="#galerie">Termes&conditions</a></li>
-                        <li><a href="#action">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="col text-center">
-                    <img src="images/favicon.png" alt="" width="60">
-                </div>
-                <div class="col">
-                    <p>Copyright C 2021 Voyages - Tous droits réservés</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!--footer-->
+    <? php include ('footer.php');?
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
 </body>

@@ -59,7 +59,7 @@
             <div class="row">
                 <nav class="navbar navbar-expand-lg col-md-10 offset-md-1">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.php">
                             <h3 class="text-white">VOYAGE</h3>
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -71,7 +71,7 @@
                             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link active text-white" aria-current="page"
-                                        href="index.html">Accueil</a>
+                                        href="index.php">Accueil</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-white" href="#">Destinations</a>
